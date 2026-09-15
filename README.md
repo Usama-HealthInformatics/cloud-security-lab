@@ -83,12 +83,64 @@ cloud-security-lab/
 └── reports/
 ```
 
-## Security Scope
-
-This project uses documented cloud-security scenarios and defensive architecture principles. It does not claim access to production cloud environments or unauthorized systems.
-
 ## Status
 
-**In Progress**
+**Completed — Documentation-Based Cloud Security Lab**
 
-The laboratory will document cloud-security architecture, IAM controls, network protections, monitoring strategies, and risk assessments.
+This project documents a defensive cloud-security approach covering cloud architecture, identity and access management (IAM), network security, security logging and monitoring, data protection, and cloud risk assessment.
+
+The scenarios and assessments are documentation-based and do not claim configuration or testing of production cloud environments.
+
+## Project Areas
+
+### Cloud Security Architecture
+
+[Cloud Security Architecture](architecture/cloud-security-architecture.md)
+
+Reference architecture demonstrating defense-in-depth, IAM, network security, monitoring, and data-protection concepts.
+
+### IAM Security Assessment
+
+[IAM Security Assessment](iam/iam-security-assessment.md)
+
+Assessment of least privilege, MFA, privileged access, service accounts, access reviews, and separation of duties.
+
+### Cloud Security Risk Assessment
+
+[Cloud Security Risk Assessment](reports/cloud-security-risk-assessment.md)
+
+Risk assessment covering common cloud security risks, severity levels, mitigations, and security priorities.
+
+## Security Domains
+
+* Identity and Access Management (IAM)
+* Least Privilege
+* Multi-Factor Authentication (MFA)
+* Cloud Network Security
+* Network Segmentation
+* Security Logging
+* Security Monitoring
+* Data Protection
+* Encryption
+* Risk Assessment
+* Defense in Depth
+* Continuous Security Improvement
+
+## Security Principles
+
+The lab follows:
+
+* Least privilege
+* Secure by default
+* Defense in depth
+* Strong authentication
+* Continuous monitoring
+* Data protection
+* Separation of duties
+* Assume breach
+
+## Scope
+
+This repository is a documentation-based defensive security project created for cybersecurity portfolio development.
+
+It does not claim unauthorized access, production-cloud testing, or real-world security assessments.
